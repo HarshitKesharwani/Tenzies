@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.cont1
+{
+  background-color: #0B2434;
+  height: 630px;
+  width: 600px;
+  margin-left: 11cm;
+  
+  margin-top: 1cm;
+}
+.cont2
+{
+  background-color:#F5F5F5;
+  height: 550px;
+  width:550px;
+  margin-left: 11.7cm;
+  border-radius: 5px;
+  margin-top: -16cm;
+}
+.head
+{
+  margin-left: 5.8cm;
+}
+.para
+{
+  margin-left: 4cm;
+}
+.para2
+{
+  margin-left: 1.6cm;
+}
+.dieface
+{
+  height: 50px;
+    width: 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cont3
+{
+  margin-left: 1cm;
+  margin-top: 2cm;
+  display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap:20px;
+    cursor: pointer;
+}
+.rolldicebutton
+{
+  height: 1cm;
+  width:2.4cm;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  margin-left: 6.3cm;
+  margin-top: 2cm;
+  border:none
+}
+.rolldicebutton:hover
+{
+  background-color:navy;
+}
+.rolldicebutton:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.cong
+{
+  margin-left: 4.3cm;
+}
