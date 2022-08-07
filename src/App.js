@@ -65,7 +65,7 @@ React.useEffect(() => {
   
   return (
     <>
-    {Tenzies && <Confetti />}
+    {Tenzies && <Confetti width="1600px"/>}
     <div className="cont1">
 
 

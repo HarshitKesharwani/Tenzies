@@ -87,12 +87,14 @@ code {
 {
   .cont1{
     width:550px;
-    margin-left:1cm;
+    margin-top:4cm;
+    margin-left:0cm;
     margin-right: 1cm;
   }
   .cont2{
     width: 500px;
-    margin-left:1.7cm;
+    
+    margin-left:0.6cm;
     margin-right: 1.7cm;
   }
 }
