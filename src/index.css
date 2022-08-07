@@ -83,3 +83,16 @@ code {
 {
   margin-left: 4.3cm;
 }
+@media(max-width:785px)
+{
+  .cont1{
+    width:550px;
+    margin-left:1cm;
+    margin-right: 1cm;
+  }
+  .cont2{
+    width: 500px;
+    margin-left:1.7cm;
+    margin-right: 1.7cm;
+  }
+}

@@ -48,11 +48,14 @@ function handleclick()
             generateNewDie()
     }))
 }
+
 const [Tenzies,setTenzies]=React.useState(false)
 React.useEffect(() => {
+  
   const allHeld = dice.every(die => die.isHeld)
   const firstValue = dice[0].value
   const allSameValue = dice.every(die => die.value === firstValue)
+   
   if (allHeld && allSameValue) {
       setTenzies(true)
       console.log("You won!")
@@ -80,6 +83,7 @@ React.useEffect(() => {
 <button className='rolldicebutton' onClick={handleclick}>{Tenzies?"You Won":"Roll"}</button>
 <br/>
 <h3 className='cong'>{Tenzies?"Congratulations You won !":""}</h3>
+
 </div>
 
     </>
