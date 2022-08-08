@@ -41,7 +41,8 @@ const dices =dice.map(die=>{
 })
 function handleclick()
 {
-  
+  if(!Tenzies)
+  {
     setdice(oldDice => oldDice.map(die => {
         return die.isHeld ? 
             die :
@@ -49,9 +50,14 @@ function handleclick()
     }))
 }
 
+else{
+  setTenzies(false)
+  setdice(allNewDice())
+}
+}
 const [Tenzies,setTenzies]=React.useState(false)
 React.useEffect(() => {
-  
+ 
   const allHeld = dice.every(die => die.isHeld)
   const firstValue = dice[0].value
   const allSameValue = dice.every(die => die.value === firstValue)
@@ -59,6 +65,7 @@ React.useEffect(() => {
   if (allHeld && allSameValue) {
       setTenzies(true)
       console.log("You won!")
+    
   }
 }, [dice])
 
